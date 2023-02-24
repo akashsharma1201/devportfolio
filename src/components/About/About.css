@@ -1,0 +1,126 @@
+.about-section{
+    background-color: #10121b;
+}
+
+.heading-wrapper h1{
+    color:#fff;
+    text-transform: uppercase;
+    position: relative;
+    margin: 40px 0px;
+}
+
+.heading-wrapper h1::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 100px;
+    background-color: #0c3360;
+    height: 5px;
+    border-radius: 5px;
+}
+
+
+.heading-wrapper h1::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 40px;
+    background-color: #087bff;
+    height: 5px;
+    border-radius: 5px;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details h3{
+    
+    color: #fff;
+    font-size: 1.7rem;
+
+}
+
+.details h3 span{
+    color: #087bff;
+}
+
+.details p{
+    color: #8086a0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.details ul{
+    padding: 0px;
+}
+
+.details ul li{
+    list-style-type: none;
+    margin-top: 5px;
+    display: flex;
+    color: #8086a0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.details ul li span{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 130px;
+}
+
+.download-cv{
+    background-color: #087bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    display: block;
+    width: 160px;
+}
+
+.card-service{
+    border: 1px solid #2e344e;
+    padding: 30px 20px;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.card-service::before{
+    content: "";
+    position: absolute;
+    left: 0px ;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #2e344e;
+
+}
+
+.card-service:hover:before {
+    content: "";
+    position: absolute;
+    left: 0px ;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #3e5eee;
+}
+.card-service > h4 {
+    color: #ced2e5;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.card-service > p {
+    color: #8086a0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

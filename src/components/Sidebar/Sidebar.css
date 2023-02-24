@@ -1,0 +1,84 @@
+.sideBar {
+  background-color: #191d2b;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  z-index: 10;
+  /* width: 390px; */
+  /* width: 100%; */
+}
+
+.auther-image-box{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    border-bottom: 1px solid rgb(72, 72, 72);
+}
+
+.auther-image-box img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.menu-box ul{
+    padding: 0px;
+    width: 100%;
+}
+
+.menu-box ul li{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-box ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    padding: 0.7rem 2rem;
+    display: block;
+    /* background-color: aqua; */
+}
+
+.menu-box ul li a:hover{
+    background-color: #66b3ffe3;
+    /* color: #037fff; */
+    color: #fff;
+    animation-name: activemenu;
+    animation-duration: 550ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+
+.menu-box ul li .active{
+    background-color: #037fff;
+    /* animation-name: activemenu;
+    animation-duration: 550ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+*/
+}
+
+/* 
+   
+@keyframes activemenu {
+    0%{
+       background-color: transparent;
+    }
+    100%{
+
+      background-color: red;
+    }
+} */

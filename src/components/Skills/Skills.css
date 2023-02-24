@@ -1,0 +1,235 @@
+.skill-section {
+  background-color: #10121b;
+}
+
+.heading-wrapper h1 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  margin: 40px 0px;
+}
+
+.heading-wrapper h1::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  width: 100px;
+  background-color: #0c3360;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.heading-wrapper h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  width: 40px;
+  background-color: #087bff;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.skill-bar-box {
+  margin: 25px 0px;
+}
+
+.skill-bar-box h4 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.skill-bar-box .skill-bar > h4 {
+  color: #575e77;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.skill-bar-box .skill-bar > span {
+  background-color: #2e344e;
+  display: block;
+  width: 100%;
+  height: 6px;
+  margin: auto 0px;
+  position: relative;
+}
+
+.skill-bar-box .skill-bar > .html::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 95%;
+  height: 100%;
+  background-color: #037fff;
+  animation-name: html;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+.skill-bar-box .skill-bar > .css::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 90%;
+  height: 100%;
+  background-color: #037fff;
+  animation-name: css;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+.skill-bar-box .skill-bar > .bootstrap::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 90%;
+  height: 100%;
+  background-color: #037fff;
+  animation-name: bootstrap;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+.skill-bar-box .skill-bar > .javascript::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  height: 100%;
+  background-color: #037fff;
+  animation-name: javascript;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+.skill-bar-box .skill-bar > .reactjs::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  height: 100%;
+  background-color: #037fff;
+  animation-name: reactjs;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+.skill-bar-box .skill-bar > .redux::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 70%;
+  height: 100%;
+  background-color: #037fff;
+
+  animation-name: redux;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+
+@keyframes html {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes reactjs {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes redux {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.education-part {
+  border-left: 3px solid #2e344e;
+}
+.education-part .study-duration {
+  color: #a4acc4;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.education-part .study-duration::before {
+  content: "";
+  position: absolute;
+  top: 35%;
+  left: -32%;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #2e344e;
+  background-color: #10121b;
+  border-radius: 50%;
+}
+
+.education-part h4 {
+  color: #037fff;
+  font-weight: 700;
+
+}
+
+.education-part h5 {
+  color: #dfdede;
+  font-size: 1rem;
+  font-weight: 700;
+
+}
+
+.education-part p {
+  color: #8086a0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
