@@ -39,7 +39,7 @@ const serviceData = [
                     </div>
                     <div className='col-md-6'>
                         <div className='d-flex align-items-center'>
-                            <img className='img-fluid' src='https://c4.wallpaperflare.com/wallpaper/475/669/86/tv-show-ben-10-wallpaper-preview.jpg' alt="auther-image" />
+                            <img className='img-fluid' src='https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926__340.jpg' alt="auther-image" />
                             <FaSearchPlus />
                         </div>
                     </div>
